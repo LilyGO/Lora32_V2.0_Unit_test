@@ -14,6 +14,8 @@ delay(1000);                       // wait for a second
 
 Flash every second
 
+---
+
 ### Unit 2 Bluetooth
 
 Phone pairing to connect to Bluetooth
@@ -27,6 +29,8 @@ void setup() {
 }
 ```
 ESP32 Bluetooth name is set by SerialBT.begin()
+
+---
 
 ### Uint 3 wifi
 
@@ -60,6 +64,8 @@ digitalWrite(led, 0);
 ```
 Log in to 192.168.0.x,The screen will display:"hello from esp32!"
 
+---
+
 ### Unit 4 SD card
 
 Read the name of the SD card storage information according to the serial port information.
@@ -76,6 +82,8 @@ Read the name of the SD card storage information according to the serial port in
   Serial.println("initialization done.");
 ```
 Please note that the baud rate is consistent
+
+---
 
 ### Unit 5 Lora
 
